@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+
+div.quadro{
+    height: 100%;
+    width: 100%;
+    background: aquamarine;
+}
+div table{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+}
+td{
+    border: 1px solid #000000;
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    font-size: 2vw;
+    font-family: monospace;
+    color: #000;
+}
+ul{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+li{
+    background: cyan;
+    text-decoration: none;
+    border: 1px solid #000;
+}
